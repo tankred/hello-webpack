@@ -1,6 +1,6 @@
 {
   "name": "hello-webpack",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Webpack lab",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "dev": "webpack --w"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tankred",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.43.0",
