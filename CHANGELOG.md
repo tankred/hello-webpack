@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.4] - 2020-07-06
+### Changed
+- Add asset management
+### Added
+- Add stylesheet
+
 ## [0.1.3] - 2020-07-06
 ### Changed
 - Use dist dir
