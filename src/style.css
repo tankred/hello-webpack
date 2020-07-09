@@ -1,4 +1,12 @@
+@font-face {
+   font-family: 'F5-6-Regular';
+   src:  url('./F5-6-Regular.woff2') format('woff2'),
+         url('./F5-6-Regular.woff') format('woff');
+   font-weight: 600;
+   font-style: normal;
+}
 .hello {
   color: red;
+  font-family: 'F5-6-Regular';
   background: url('./2017-04-13-13-27-13-000100.png');
 }
