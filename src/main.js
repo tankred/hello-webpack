@@ -2,6 +2,7 @@ import _ from 'lodash'
 import click from './game'
 import './style.css'
 import Icon from './2017-04-13-13-27-13-000100.png';
+import Data from './data.xml';
 
 const button = document.getElementById('button');
 
@@ -21,6 +22,7 @@ function component() {
   myIcon.src = Icon;
   element.appendChild(myIcon);
 
+  console.log(Data);
   return element;
 }
 
