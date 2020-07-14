@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.8] - 2020-07-14
+### Changed
+- Add laserjet component 
+
 ## [0.1.7] - 2020-07-10
 ### Changed
 - Add DATA

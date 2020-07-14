@@ -3,6 +3,7 @@ import click from './game'
 import './style.css'
 import Icon from './2017-04-13-13-27-13-000100.png';
 import Data from './data.xml';
+import Laserjet from './assets/component/c-laserjet/index.js'
 
 const button = document.getElementById('button');
 
