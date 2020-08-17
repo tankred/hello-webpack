@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [Released]
+
+## [0.2.0] - 2020-08-17
+### Changed
+- Bump version to 0.2.0
+
 ## [0.1.8] - 2020-07-14
 ### Changed
 - Add laserjet component 
@@ -35,8 +41,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.2] - 2020-06-24
 ### Changed
 - Add run dev
-
-## [Released]
 
 ## [0.1.0] - 2020-06-24
 ### Added
