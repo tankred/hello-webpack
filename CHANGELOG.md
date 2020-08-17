@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [0.3.0] - 2020-08-17
+### Changed
+- Update lodash module (dependabot) 
+
 ## [0.2.0] - 2020-08-17
 ### Changed
 - Bump version to 0.2.0
