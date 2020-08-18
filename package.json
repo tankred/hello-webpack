@@ -1,6 +1,6 @@
 {
   "name": "hello-webpack",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Webpack lab",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,7 @@
     "css-loader": "^3.6.0",
     "csv-loader": "^3.0.3",
     "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
