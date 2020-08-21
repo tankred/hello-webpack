@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.4] - 2020-08-21
+### Changed
+- Start development
+
 ## [0.3.3] - 2020-08-19
 ### Changed
 - Clean up the dist dir with clean-webpack-plugin
