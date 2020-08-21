@@ -8,6 +8,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [0.4.0] - 2020-08-21
+### Changed
+- Bump version to 0.4.0
+
+## [0.3.4] - 2020-08-21
+### Changed
+- Start development
+
+## [0.3.3] - 2020-08-19
+### Changed
+- Clean up the dist dir with clean-webpack-plugin
+
+## [0.3.2] - 2020-08-18
+### Changed
+- Setting up HtmlWebpackPlugin 
+
+## [0.3.1] - 2020-08-17
+### Changed
+- Wrapping up asset management
+
 ## [0.3.0] - 2020-08-17
 ### Changed
 - Update lodash module (dependabot) 
