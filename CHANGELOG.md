@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [Released]
+
+## [0.4.0] - 2020-08-21
+### Changed
+- Bump version to 0.4.0
+
 ## [0.3.4] - 2020-08-21
 ### Changed
 - Start development
@@ -21,8 +27,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.3.1] - 2020-08-17
 ### Changed
 - Wrapping up asset management
-
-## [Released]
 
 ## [0.3.0] - 2020-08-17
 ### Changed
