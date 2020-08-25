@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.3] - 2020-08-25
+### Changed
+- Install Webpack dev server
+
 ## [0.4.2] - 2020-08-24
 ### Changed
 - Use Watch Mode
