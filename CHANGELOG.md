@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [Released]
+
+## [0.5.0] - 2020-08-26
+### Changed
+- Bump version to 0.5.0
+
 ## [0.4.4] - 2020-08-26
 ### Changed
 - Install Webpack middleware
@@ -21,8 +27,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.4.1] - 2020-08-21
 ### Changed
 - Start development guide
-
-## [Released]
 
 ## [0.4.0] - 2020-08-21
 ### Changed
