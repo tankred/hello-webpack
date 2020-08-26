@@ -8,6 +8,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [0.5.0] - 2020-08-26
+### Changed
+- Bump version to 0.5.0
+
+## [0.4.4] - 2020-08-26
+### Changed
+- Install Webpack middleware
+
+## [0.4.3] - 2020-08-25
+### Changed
+- Install Webpack dev server
+
+## [0.4.2] - 2020-08-24
+### Changed
+- Use Watch Mode
+
+## [0.4.1] - 2020-08-21
+### Changed
+- Start development guide
+
 ## [0.4.0] - 2020-08-21
 ### Changed
 - Bump version to 0.4.0
