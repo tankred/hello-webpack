@@ -7,6 +7,10 @@ module.exports = {
   entry: {
     app: './src/main.js', 
     print: './src/print.js',
+    another: './src/another-module.js',
+//     index: { import: './src/main.js', dependOn: 'shared' },
+//     another: { import: './src/another-module.js', dependOn: 'shared' },
+//     shared: 'lodash',
   }, 
   devtool: 'inline-source-map',
   devServer: {
@@ -22,5 +26,10 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'), 
     publicPath: '/',
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    },
   },
 };
