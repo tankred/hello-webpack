@@ -7,7 +7,7 @@ module.exports = {
   entry: {
     app: './src/main.js', 
     print: './src/print.js',
-    another: './src/another-module.js',
+//    another: './src/another-module.js',
 //     index: { import: './src/main.js', dependOn: 'shared' },
 //     another: { import: './src/another-module.js', dependOn: 'shared' },
 //     shared: 'lodash',
@@ -24,12 +24,13 @@ module.exports = {
   ],
   output: {
     filename: '[name].bundle.js',
+    chunkFilename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'), 
     publicPath: '/',
   },
-  optimization: {
-    splitChunks: {
-      chunks: 'all',
-    },
-  },
+  //    optimization: {
+  //      splitChunks: {
+  //        chunks: 'all',
+  //      },
+  //    },
 };

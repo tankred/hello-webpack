@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.2] - 2020-08-28
+### Changed
+- Add chunkfilename to split the code
+
 ## [0.5.1] - 2020-08-27
 ### Changed
 - Split some code
