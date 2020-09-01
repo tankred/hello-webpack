@@ -6,7 +6,7 @@ module.exports = {
   mode: "development", // could be "production" as well
   entry: {
     app: './src/main.js', 
-    print: './src/print.js',
+//    print: './src/print.js',
 //    another: './src/another-module.js',
 //     index: { import: './src/main.js', dependOn: 'shared' },
 //     another: { import: './src/another-module.js', dependOn: 'shared' },
