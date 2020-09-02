@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.5] - 2020-09-02
+### Changed
+- Shimming Globals
+
 ## [0.5.4] - 2020-09-01
 ### Changed
 - 
