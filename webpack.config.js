@@ -17,6 +17,14 @@ module.exports = {
   devServer: {
     contentBase: './dist',
   },
+  module: {
+     rules: [
+       {
+         test: require.resolve('./src/main.js'),
+         use: 'imports-loader?this=>window',
+       },
+     ],
+   },
   plugins: [
     new webpack.ProvidePlugin({
        // _: 'lodash',
