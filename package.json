@@ -1,6 +1,6 @@
 {
   "name": "hello-webpack",
-  "version": "0.5.6",
+  "version": "0.5.8",
   "description": "Webpack lab",
   "main": "index.js",
   "scripts": {
