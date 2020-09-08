@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.5.8] - 2020-09-08
 ### Changed
 - Global exports
+- Removed Granular shimming topic 
+- Merged hotfix/XYZ
 
 ## [0.5.7] - 2020-09-04
 ### Changed
