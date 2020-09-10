@@ -38,4 +38,20 @@ module.exports = {
   //        chunks: 'all',
   //      },
   //    },
+  
+  module: {
+      rules: [{
+         test: require.resolve('./src/globals.js'),
+         loader: 'exports-loader',
+         options: {
+          type: 'commonjs',
+          exports: [
+            { syntax: 'named', name: 'file', alias: 'FooA' },
+            { syntax: 'named', name: 'helpers.parse' },
+            'helpers.test',
+          ],
+        }
+       },
+      ],
+    },
 };
