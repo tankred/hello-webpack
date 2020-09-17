@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [Released]
+
+## [0.6.0] - 2020-09-17
+### Changed
+- Merged hotfix/rollbacktonode-99d47ca
+-- rollback to "Use exports loader"
+
 ## [0.5.9] - 2020-09-10
 ### Changed
 - Exports globals 
@@ -42,8 +49,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.5.1] - 2020-08-27
 ### Changed
 - Split some code
-
-## [Released]
 
 ## [0.5.0] - 2020-08-26
 ### Changed
