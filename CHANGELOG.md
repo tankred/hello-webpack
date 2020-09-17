@@ -6,6 +6,43 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.5.9] - 2020-09-10
+### Changed
+- Exports globals 
+
+## [0.5.8] - 2020-09-08
+### Changed
+- Global exports
+- Removed Granular shimming topic 
+
+## [0.5.7] - 2020-09-04
+### Changed
+- Granular Shimming
+
+## [0.5.6] - 2020-09-03
+### Changed
+- Shimming globals when needed
+
+## [0.5.5] - 2020-09-02
+### Changed
+- Shimming Globals
+
+## [0.5.4] - 2020-09-01
+### Changed
+- 
+
+## [0.5.3] - 2020-08-31
+### Changed
+- Prefetch / Preloading modules
+
+## [0.5.2] - 2020-08-28
+### Changed
+- Add chunkfilename to split the code
+
+## [0.5.1] - 2020-08-27
+### Changed
+- Split some code
+
 ## [Released]
 
 ## [0.5.0] - 2020-08-26

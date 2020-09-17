@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
@@ -6,13 +7,21 @@ module.exports = {
   mode: "development", // could be "production" as well
   entry: {
     app: './src/main.js', 
-    print: './src/print.js',
+//    print: './src/print.js',
+//    another: './src/another-module.js',
+//     index: { import: './src/main.js', dependOn: 'shared' },
+//     another: { import: './src/another-module.js', dependOn: 'shared' },
+//     shared: 'lodash',
   }, 
   devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist',
   },
   plugins: [
+    new webpack.ProvidePlugin({
+       // _: 'lodash',
+      join: ['lodash', 'join'],
+     }),
     new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
     new HtmlWebpackPlugin({
       title: 'Output Management',
@@ -20,7 +29,29 @@ module.exports = {
   ],
   output: {
     filename: '[name].bundle.js',
+    chunkFilename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'), 
     publicPath: '/',
   },
+  //    optimization: {
+  //      splitChunks: {
+  //        chunks: 'all',
+  //      },
+  //    },
+  
+  module: {
+      rules: [{
+         test: require.resolve('./src/globals.js'),
+         loader: 'exports-loader',
+         options: {
+          type: 'commonjs',
+          exports: [
+            { syntax: 'named', name: 'file', alias: 'FooA' },
+            { syntax: 'named', name: 'helpers.parse' },
+            'helpers.test',
+          ],
+        }
+       },
+      ],
+    },
 };
