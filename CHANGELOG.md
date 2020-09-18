@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [0.7.0] - 2020-09-18
+### Changed
+- ncu -u
+- Upgrade node-forge to version 0.10.0 
+
 ## [0.6.0] - 2020-09-17
 ### Changed
 - Merged hotfix/rollbacktonode-99d47ca
