@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [0.8.0] - 2020-12-14
+### Changed
+- Merge infosec issue depandabot
+
 ## [0.7.0] - 2020-09-18
 ### Changed
 - ncu -u
