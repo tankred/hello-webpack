@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.9.0] - 2021-03-12
 ### Changed
 - Merge infosec issue depandabot
+- Npm audit fix
 
 ## [0.8.0] - 2020-12-14
 ### Changed
