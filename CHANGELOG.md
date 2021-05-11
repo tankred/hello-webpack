@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [0.12.0] - 2021-05-11
+### Changed
+- Npm audit fix 
+
 ## [0.11.0] - 2021-05-10
 ### Changed
 - Npm audit fix lodash and url-parse
