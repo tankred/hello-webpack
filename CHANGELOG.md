@@ -6,7 +6,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.13.1] - 2021-05-12
+### Changed
+- Update lodash package
+
 ## [Released]
+
+## [0.13.0] - 2021-05-11
+### Changed
+- Npm audit fix --force
+
+## [0.12.0] - 2021-05-11
+### Changed
+- Npm audit fix 
+
+## [0.11.0] - 2021-05-10
+### Changed
+- Npm audit fix lodash and url-parse
 
 ## [0.10.0] - 2021-04-29
 ### Changed
