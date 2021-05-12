@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.13.1] - 2021-05-12
+### Changed
+- Update lodash package
+
 ## [Released]
 
 ## [0.13.0] - 2021-05-11
