@@ -1,6 +1,6 @@
 {
   "name": "hello-webpack",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "description": "Webpack lab",
   "main": "index.js",
   "scripts": {
@@ -18,18 +18,18 @@
   "author": "Tankred",
   "license": "ISC",
   "devDependencies": {
-    "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^5.2.4",
-    "csv-loader": "^3.0.3",
-    "exports-loader": "^1.1.0",
-    "express": "^4.17.3",
-    "file-loader": "^6.1.0",
-    "html-webpack-plugin": "^4.4.1",
-    "style-loader": "^1.2.1",
-    "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-middleware": "^3.7.2",
-    "webpack-dev-server": "^3.11.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "csv-loader": "^3.0.5",
+    "exports-loader": "^4.0.0",
+    "express": "^4.18.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-middleware": "^6.0.2",
+    "webpack-dev-server": "^4.13.2",
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
