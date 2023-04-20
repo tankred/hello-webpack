@@ -43,20 +43,11 @@ Will run a dev server on port 8080
 
 
 
-### Break down into end to end tests
+### Abandon project 
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
 
 ```
-Give an example
+git archive 
 ```
 
 ## Deployment
