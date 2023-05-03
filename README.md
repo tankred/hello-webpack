@@ -1,6 +1,9 @@
 # Hello Webpack
 
-One Paragraph of project description goes here
+This is a repository that is no longer maintained. 
+This is an archived repo.
+
+Its issues, pull requests, code, labels, milestones, projects, wiki, releases, commits, tags, branches, reactions, code scanning alerts, comments and permissions become read-only. To make changes in an archived repository, you must unarchive the repository first.
 
 ## Getting Started
 
